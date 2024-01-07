@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    padding: 15px 20px 30px 20px;
+    margin-left: 50px;
+}
+.portfolio{
+    padding: left;
+    margin-left: 80px;
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
