@@ -6,6 +6,7 @@ nav{
     text-decoration: underline none;
     justify-content: space-between;
     align-items: center;
+    background-color: #FFF8F3;
 }
 
 nav ul{
@@ -24,9 +25,7 @@ nav li{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    font-style: normal;
-   
-    
+    font-style: normal; 
 }
 .navtitle-r{
     color: #FD6E0A;
@@ -46,6 +45,10 @@ nav li{
     font-style: normal;
     font-weight: 50;
     line-height: normal;
+}
+div >src{
+    display: flex;
+    s
 }
 .contenar{
     color: var(--Dark-02, #474747);
@@ -80,7 +83,7 @@ div ul{
     padding-left:10px;
     align-items: center;
     padding: 10px;
-    
+}
 #download-btn{
     background: #FD6E0A;
     width: 100px;
@@ -100,12 +103,34 @@ div ul{
     height: 40px;
     stroke-width: 1px;
     flex-shrink: 0;
-    background-color: #FFF8F3;;
+    background-color: #FFF8F3;
     color: #FD6E0A;
     text-align: center;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
 
+.profile-pic {
+    width: 220px;
+    height: 300px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline-end: 0px;
+    padding: 10px 15px 20px 0px;
+    border-bottom:0px ;
+    mar
+}
+.division{
+    background-color: #FFF8F3;
+    display: flex;
+    padding: auto;
+    padding-bottom:0;
+    justify-content: space-between;
+   
+
+    
 }
