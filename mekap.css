@@ -57,7 +57,7 @@ nav li{
 }
 .contenar-temporali{
     color: var(--Dark-01, #181818);
-    font-size: 45px;
+    font-size: 52px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -66,13 +66,44 @@ nav li{
 .paragraph{
     
     color: var(--Dark-03, #757575);
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+    font-weight: 300;
+    line-height: 25px;
 }
 div ul{
-    justify-content: space-between;
-    align-items: center;
+
     list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin-right: 50px;
+    padding-left:10px;
+}
+#download-btn{
+    background: #FD6E0A;
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    color:#FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    list-style: none;
+    padding-left: 5px;
+}
+#Contact-btn{
+    width: 100px;
+    height: 40px;
+    stroke-width: 1px;
+    flex-shrink: 0;
+    background-color: #FFF8F3;;
+    color: #FD6E0A;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
 }
