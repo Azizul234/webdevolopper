@@ -78,7 +78,9 @@ div ul{
     display: flex;
     margin-right: 50px;
     padding-left:10px;
-}
+    align-items: center;
+    padding: 10px;
+    
 #download-btn{
     background: #FD6E0A;
     width: 100px;
@@ -91,7 +93,7 @@ div ul{
     font-weight: 700;
     line-height: normal;
     list-style: none;
-    padding-left: 5px;
+    margin-right: 5px;
 }
 #Contact-btn{
     width: 100px;
